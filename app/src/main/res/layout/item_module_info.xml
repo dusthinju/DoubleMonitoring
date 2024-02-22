@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/monitor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+       >
+
+        <TextView
+            android:id="@+id/moduleInfo_text_moduleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:text="모듈 이름 : "/>
+
+
+        <TextView
+            android:id="@+id/moduleInfo_text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:text="모듈 상태 : "/>
+
+        <TextView
+            android:id="@+id/moduleInfo_text_temp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:text="온도 : "/>
+
+        <TextView
+            android:id="@+id/moduleInfo_text_temp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:text="온도 : "/>
+
+
+
+        <TextView
+            android:id="@+id/moduleInfo_text_voltage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:text="전압 1 : "/>
+
+        <TextView
+            android:id="@+id/moduleInfo_text_voltage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="17sp"
+            android:text="전압 2 : "/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

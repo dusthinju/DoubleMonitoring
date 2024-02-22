@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "192165025902",
+    "project_id": "doublemonitoring-e9945",
+    "storage_bucket": "doublemonitoring-e9945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192165025902:android:063be28b84c41bc82a2e7f",
+        "android_client_info": {
+          "package_name": "com.example.doublemonitoring"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaXIpw4koMuk9FjwN8zdRWfskjL-QbibE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

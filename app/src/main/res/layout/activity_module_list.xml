@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="14"
+    android:orientation="vertical"
+    tools:context=".ModuleListActivity">
+
+    <TextView
+        android:text="전체 모듈 목록"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/lilac"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/modulelist_recyclerView"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:gravity="center">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/addModuleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="새로운 모듈 추가하기"
+        android:layout_margin="15dp"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        android:backgroundTint="@color/lilac"/>
+
+</LinearLayout>
