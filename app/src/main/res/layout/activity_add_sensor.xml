@@ -22,19 +22,44 @@
         android:text="센서 추가하기"
         />
 
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_button_volt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="voltage"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_button_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="temperature"
+            android:layout_marginLeft="10dp"
+            />
+
+    </RadioGroup>
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp">
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
 
         <EditText
-            android:id="@+id/addsensor_edit_type"
-            android:hint="센서 종류를 입력하세요."
+            android:id="@+id/addSensor_edit_name"
+            android:hint="센서 이름을 입력하세요."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#DAD9FF"/>
+            android:background="#DAD9FF" />
 
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -42,27 +67,20 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp">
 
         <EditText
             android:id="@+id/addsensor_edit_address"
-            android:hint="센서 주소값을 입력하세요."
+            android:hint="센서 주소를 입력하세요."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/lilac"
-            />
+            android:background="#DAD9FF"
+            android:inputType="number"/>
+
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-
-    </LinearLayout>
 
     <Button
         android:layout_margin="20dp"

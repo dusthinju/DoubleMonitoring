@@ -71,7 +71,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
                 if(task.isSuccessful()){
-                    Intent intent = new Intent(LoginActivity.this, ModuleListActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, SensorListActivity.class);
                     startActivity(intent);
                     finish();
                 }
